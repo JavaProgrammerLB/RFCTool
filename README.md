@@ -1,7 +1,7 @@
 # RFCTool
 For explore RFC documents
 
-#### rfc_downloader.py  
+#### rfc_downloader.py: download RFC with rfc number
 - suport python3
 - request **requests**
 - [Config](https://github.com/JavaProgrammerLB/RFCTool/wiki/Run-python-file-as-a-script)
