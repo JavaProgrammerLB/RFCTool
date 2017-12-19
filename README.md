@@ -4,21 +4,7 @@ For explore RFC documents
 #### rfc_downloader.py  
 - suport python3
 - request **requests**
-
-- update shebang in line one, mine is:
-```python
-#!/usr/local/bin/python3
-```
-
-change to your pytho3's path,such as:
-```python
-#!/usr/local/python
-```
-
-- Add Executable permissions
-```shell
-sudo chmod +x rfc_downloader.py
-```
+- [Config](https://github.com/JavaProgrammerLB/RFCTool/wiki/Run-python-file-as-a-script)
 
 - Usage  
 ```shell
