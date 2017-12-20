@@ -4,15 +4,22 @@ For explore RFC documents
 #### rfc_downloader.py: download RFC with rfc number
 - suport python3
 - request **requests**
-- [Config](https://github.com/JavaProgrammerLB/RFCTool/wiki/Run-python-file-as-a-script)
 
 - Usage  
 ```shell
-./rfc_downloader.py [rfc_number]
+python rfc_downloader.py [rfc_number]
 ```
 
 - Example
 Download RFC7540 with:
 ```shell
-./rfc_downloader.py 7540
+python rfc_downloader.py 7540
+```
+
+#### rfc_index.py: Index of All RFC Documents
+- request **requests**, **bs4**
+
+- Usage
+```shell
+python rfc_index.py
 ```
