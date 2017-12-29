@@ -19,6 +19,7 @@ else:
         doc_name = soup.title.string
         # write file
         file_name = "{}.pdf".format(doc_name)
+        file_name = file_name.replace("/", "-")
         file = open(file_name, "wb")
         file.write(res.content)
         print("Downloaded {}".format(file_name))
